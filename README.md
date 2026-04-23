@@ -1,16 +1,14 @@
-# smart-campus-api
-RESTful Smart Campus API built using Java (JAX-RS, Jersey, Grizzly) to manage rooms, sensors, and sensor readings with validation and relationships.
-
-
 # Smart Campus API
 
-## 📌 Overview
+##  Overview
+RESTful Smart Campus API built using Java (JAX-RS, Jersey, Grizzly) to manage rooms, sensors, and sensor readings with validation and relationships.
+
 This project implements a RESTful API for a Smart Campus Monitoring System.  
 It manages rooms, sensors, and sensor readings with proper validation, relationships, and error handling.
 
 ---
 
-## 🎯 Features
+##  Features
 - CRUD operations for Rooms and Sensors
 - Sensor readings management (history tracking)
 - Relationship: Room → Sensors → Readings
@@ -19,7 +17,7 @@ It manages rooms, sensors, and sensor readings with proper validation, relations
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 - Java
 - JAX-RS (Jersey)
 - Grizzly HTTP Server
@@ -28,7 +26,7 @@ It manages rooms, sensors, and sensor readings with proper validation, relations
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 Room → Sensor → Sensor Readings
 
@@ -38,7 +36,7 @@ Room → Sensor → Sensor Readings
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### 🔹 Rooms
 | Method | Endpoint | Description |
@@ -68,7 +66,7 @@ Room → Sensor → Sensor Readings
 
 ---
 
-## ⚠️ Validation Rules
+##  Validation Rules
 - Room ID must be unique
 - Sensor must belong to an existing room
 - Sensor ID must be unique
@@ -77,7 +75,7 @@ Room → Sensor → Sensor Readings
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open the project in IntelliJ
 2. Run `Main.java`
@@ -85,7 +83,7 @@ Room → Sensor → Sensor Readings
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Use Postman to test endpoints:
 
@@ -101,7 +99,7 @@ POST `/api/v1/rooms`
 }
 ```
 ---
-# 📡 API ENDPOINTS
+#  API ENDPOINTS
 
 ## 🔹 Rooms
 | Method | Endpoint | Description |
@@ -130,7 +128,7 @@ POST `/api/v1/rooms`
 
 ---
 
-# 📘 COURSEWORK QUESTIONS & ANSWERS
+#  COURSEWORK QUESTIONS & ANSWERS
 
 ---
 
@@ -307,10 +305,10 @@ This is better than manually adding logging statements in each method.
 
 ---
 
-## 🔗 GitHub Repository
+##  GitHub Repository
 https://github.com/BasimAnsar/smart-campus-api
 
 ---
 
-## 👤 Author
+##  Author
 Basim Ansar
